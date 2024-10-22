@@ -37,29 +37,27 @@ ul.inline li.separator {
 }
 
 hr {
-    border-color: #333;
+    opacity: 0;
 }
 
-@media (prefers-color-scheme: dark) {
-    body {
-        background: rgba(0, 0, 0, 1.0);
-    }
+ul.checkmark {
+  list-style: none;
+}
 
-    a {
-        color: rgba(255, 255, 255, 1.0);
-        text-decoration: none;
-        border-bottom: 1px solid rgba(255, 255, 255, 0.4);
-        padding-bottom: 2px;
-    }
-    
-    a:hover {
-        color: rgba(255, 255, 255, 0.6);
-    }
+ul.checkmark li:before {
+  content: '✓';
+  color: #1E1E24;
+  opacity: .45;
+  padding-right: .75rem;
+}
 
-    p, ul {
-        color: rgba(255, 255, 255, 1.0);
-    }
+ul.mdash {
+list-style: disc inside; }
 
-    hr {
-        border-color: rgba(255, 255, 255, 0.8);
-    }
+ul.mdash li::marker {
+  color: rgba(30, 30, 36, 0.45);
+}
+
+ul.mdash li:before {
+  padding-right: 3.75rem;
+}
