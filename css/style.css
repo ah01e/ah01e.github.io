@@ -61,3 +61,31 @@ ul.mdash li::marker {
 ul.mdash li:before {
   padding-right: 3.75rem;
 }
+
+.contacts {
+  float: right;
+}
+
+.header-subscription {
+  text-align: center; font-weight: bold; font-size: 9.0rem; line-height: 1.2;  letter-spacing: -.1rem;
+}
+
+.header-subheadline {
+  color: #fff;
+  font-size: 6rem;
+}
+
+@media (min-width: 400px) {
+  .contacts {
+    float: none;
+  }
+  
+  .header-subscription {
+    font-size: 8.0rem;
+  }
+  
+  .header-subheadline {
+    color: #fff;
+    font-size: 4.75rem;
+  }
+}
