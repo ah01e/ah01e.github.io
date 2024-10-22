@@ -75,7 +75,7 @@ ul.mdash li:before {
   font-size: 6rem;
 }
 
-@media (min-width: 400px) {
+@media (min-width: 100px) and (max-width: 610px) {
   .contacts {
     float: none;
   }
