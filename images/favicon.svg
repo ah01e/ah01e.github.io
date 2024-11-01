@@ -1,9 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="120px" height="120px" viewBox="0 0 120 120" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <title>favicon</title>
-    <g id="favicon" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" font-family="PTMono-Regular, PT Mono" font-size="115" font-weight="normal">
-        <text id="Я" fill="#222222">
-            <tspan x="26" y="98">Я</tspan>
-        </text>
-    </g>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.dev/svgjs" width="128" height="128"><svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_306_2)">
+<rect width="128" height="128" fill="white"></rect>
+<rect x="1" width="128" height="128" rx="32" fill="#E2DB00"></rect>
+<path d="M82.464 100H74.496V70.72L64.608 72.832L47.904 100H38.496L53.472 76.096L59.328 71.968C57.024 71.456 54.88 70.688 52.896 69.664C50.976 68.576 49.28 67.232 47.808 65.632C46.4 63.968 45.28 62.048 44.448 59.872C43.68 57.696 43.296 55.2 43.296 52.384C43.296 48.48 43.936 45.248 45.216 42.688C46.56 40.064 48.352 37.984 50.592 36.448C52.896 34.848 55.552 33.728 58.56 33.088C61.632 32.384 64.864 32.032 68.256 32.032C70.432 32.032 72.736 32.128 75.168 32.32C77.664 32.512 80.096 32.896 82.464 33.472V100ZM67.872 38.944C65.76 38.944 63.744 39.168 61.824 39.616C59.904 40 58.176 40.704 56.64 41.728C55.168 42.752 53.984 44.128 53.088 45.856C52.192 47.584 51.744 49.76 51.744 52.384C51.744 54.816 52.16 56.896 52.992 58.624C53.888 60.352 55.072 61.792 56.544 62.944C58.016 64.032 59.712 64.832 61.632 65.344C63.616 65.856 65.728 66.112 67.968 66.112H74.496V39.52C73.6 39.328 72.672 39.2 71.712 39.136C70.752 39.008 69.472 38.944 67.872 38.944Z" fill="#333333"></path>
+</g>
+<defs>
+<clipPath id="SvgjsClipPath1001">
+<rect width="128" height="128" fill="white"></rect>
+</clipPath>
+</defs>
+</svg><style>@media (prefers-color-scheme: light) { :root { filter: none; } }
+@media (prefers-color-scheme: dark) { :root { filter: none; } }
+</style></svg>
