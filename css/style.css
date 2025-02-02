@@ -44,6 +44,10 @@ ul.checkmark {
   list-style: none;
 }
 
+ul.checkmark li {
+  font-size: 90%;
+}
+
 ul.checkmark li:before {
   content: '✓';
   color: #1E1E24;
@@ -75,7 +79,7 @@ ul.mdash li:before {
   font-size: 6rem;
 }
 
-@media (min-width: 100px) and (max-width: 610px) {
+@media (min-width: 100px) and (max-width: 810px) {
   .contacts {
     float: none;
   }
@@ -87,5 +91,36 @@ ul.mdash li:before {
   .header-subheadline {
     color: #fff;
     font-size: 3.5rem;
+  }
+}
+
+a.link-button {
+  border: 1px solid transparent;
+  background-color: rgba(0, 152, 116, 1.0);
+  color: rgba(255, 255, 255, .95);
+  padding: 16px;
+  border-radius: 8px;
+}
+
+a.link-button:hover {
+  background-color: #19a281;
+}
+
+a.link-button:active {
+  background-color: #008868;
+}
+
+@media (min-width: 100px) {
+  a.link-button {
+    display: block;
+    margin-top: 1rem;
+    width: 65%;
+  }
+}
+
+/* For devices larger than 550px */
+@media (min-width: 850px) {
+  a.link-button {
+    margin: 0;
   }
 }
