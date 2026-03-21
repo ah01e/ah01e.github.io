@@ -16,6 +16,15 @@ ul.inline {
     float: right;
 }
 
+.logo {
+  font-weight: bold; font-size: 1.75rem; line-height: 1.33;
+}
+
+.logo-sm {
+  font-weight: bold; font-size: 1.75rem; line-height: 1.33;
+  display: none;
+}
+
 ul.inline li {
     display: inline;
 }
@@ -90,18 +99,41 @@ ul.mdash li:before {
 
 }
 
-@media (min-width: 100px) and (max-width: 810px) {
-  .contacts {
-    float: none;
+@media (min-width: 100px) {
+  .logo {
+    display: none;
   }
+
+  .logo-sm {
+    display: block;
+  }
+
+ .header-subscription {
+  font-size: 3.05rem;
+}
+
+.header-subheadline {
+  color: green;
+  font-size: 1.35rem;
+  }
+
+  .card:last-of-type {
+    margin-top: 2rem;
+  }
+
+  ul.contacts li {
+    display: block;
+    text-align: right;
+  }
+
+  li.separator.first {
+    display: none;
+  }
+
   
-  .header-subscription {
-    font-size: 7.0rem;
-  }
-  
-  .header-subheadline {
-    font-size: 3.5rem;
-  }
+
+}
+
 }
 
 a.link-button {
@@ -135,8 +167,32 @@ a.link-button:active {
   }
 }
 
+@media (min-width: 389px) {
+ ul.contacts li {
+     display: inline;
+  }
+
+  ul.inline li {
+     display: inline !important;
+  }
+
+
+
+  li.separator.first {
+    display: block;
+  }
+}
 /* Larger than phablet (also point when grid becomes active) */
 @media (min-width: 550px) and (max-width: 749px) {
+ ul.contacts li {
+    display: inline;
+    text-align: left;
+  }
+
+  li.separator.first {
+    display: block;
+  }
+
   .header-subscription {
   font-size: 4.55rem;
 }
@@ -147,6 +203,14 @@ a.link-button:active {
 
   .card:last-of-type {
     margin-top: 2rem;
+  }
+
+  .logo {
+    display: block;
+  }
+
+  .logo-sm {
+    display: none;
   }
 }
 
@@ -162,5 +226,13 @@ a.link-button:active {
 
   .card:last-of-type {
     margin-top: 2rem;
+  }
+
+  .logo {
+    display: block;
+  }
+
+  .logo-sm {
+    display: none;
   }
 }
