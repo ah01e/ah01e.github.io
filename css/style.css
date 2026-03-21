@@ -13,6 +13,7 @@ ul.inline {
     margin: 0;
     padding:0;
     display: inline-block;
+    float: right;
 }
 
 ul.inline li {
@@ -56,7 +57,10 @@ ul.checkmark li:before {
 }
 
 ul.mdash {
-list-style: disc inside;
+  list-style: disc inside;
+  margin-left: 0;
+  padding-left: 1em;
+  text-indent: -1em;
 }
 
 ul.mdash li::marker {
@@ -68,20 +72,22 @@ ul.mdash li:before {
 }
 
 .contacts {
-  float: right;
+  /*float: right;*/
 }
 
 .header-subscription {
   text-align: center;
   font-weight: bold;
-  font-size: 9.0rem;
+  font-size: 7.0rem;
   line-height: 1.2;
   letter-spacing: -.1rem;
 }
 
 .header-subheadline {
-  color: #fff;
-  font-size: 6rem;
+  /*color: #fff;*/
+  font-size: 4.25rem;
+  font-style: italic;
+
 }
 
 @media (min-width: 100px) and (max-width: 810px) {
@@ -94,25 +100,24 @@ ul.mdash li:before {
   }
   
   .header-subheadline {
-    color: #fff;
     font-size: 3.5rem;
   }
 }
 
 a.link-button {
   border: 1px solid transparent;
-  background-color: rgba(0, 152, 116, 1.0);
-  color: rgba(255, 255, 255, .95);
-  padding: 16px;
-  border-radius: 8px;
+  background-color: rgba(0, 102, 204);
+  color: rgba(255, 255, 255, .9);
+  padding: 12px;
+  border-radius: 12px;
 }
 
 a.link-button:hover {
-  background-color: #19a281;
+  background-color: rgba(0, 31, 63, 1);
 }
 
 a.link-button:active {
-  background-color: #008868;
+  background-color: rgba(0, 102, 204);
 }
 
 @media (min-width: 100px) {
@@ -127,5 +132,35 @@ a.link-button:active {
 @media (min-width: 850px) {
   a.link-button {
     margin: 0;
+  }
+}
+
+/* Larger than phablet (also point when grid becomes active) */
+@media (min-width: 550px) and (max-width: 749px) {
+  .header-subscription {
+  font-size: 4.55rem;
+}
+
+.header-subheadline {
+  font-size: 2.55rem;
+  }
+
+  .card:last-of-type {
+    margin-top: 2rem;
+  }
+}
+
+/* Larger than tablet */
+@media (min-width: 750px) and (max-width: 999px) {
+  .header-subscription {
+  font-size: 5.55rem;
+}
+
+.header-subheadline {
+  font-size: 3.25rem;
+  }
+
+  .card:last-of-type {
+    margin-top: 2rem;
   }
 }

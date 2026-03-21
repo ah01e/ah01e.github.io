@@ -125,7 +125,9 @@ body {
   line-height: 1.6;
   font-weight: 400;
   font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color: #1E1E24; }
+  color: rgb(29, 29, 31);
+  background-color: rgb(245, 245, 247);
+}
 
 
 /* Typography
@@ -158,13 +160,15 @@ p {
 /* Links
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 a {
-  color: #1E1E24;
+  color: rgba(0, 102, 204);
   text-decoration: none;
-  border-bottom: 1px solid rgba(33, 33, 33, 0.6);
+  border-bottom: 1px solid rgba(0, 102, 204, 0.3);
   padding-bottom: 1px;
   }
 a:hover {
-  color: rgba(0, 0, 0, 0.6); }
+  color: rgba(0, 31, 63, 1);
+  border-bottom: 1px solid rgba(0, 31, 63, 0.3);
+}
 
 
 /* Buttons
