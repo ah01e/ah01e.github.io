@@ -109,12 +109,12 @@ ul.mdash li:before {
   }
 
  .header-subscription {
-  font-size: 3.05rem;
+  font-size: 4.25rem;
 }
 
 .header-subheadline {
-  color: green;
-  font-size: 1.35rem;
+  font-size: 1.85rem;
+  line-height: 1,33;
   }
 
   .card:last-of-type {
